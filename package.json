@@ -1,0 +1,15 @@
+{
+    "name": "test-automation",
+    "version": "1.0.0",
+    "scripts": {
+        "test-open": "cypress open",
+        "format": "prettier --write \"**/*.js\"",
+        "test-ui": "cypress run --browser chrome --spec 'cypress/integration/ui_tests/register.spec.js'",
+        "test-api": "cypress run --browser chrome --spec 'cypress/integration/api_tests/api_user.spec.js'"
+    },
+    "devDependencies": {
+        "cypress": "^9.1.1",
+        "prettier": "^2.5.1"
+    },
+    "dependencies": {}
+}

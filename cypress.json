@@ -1,0 +1,11 @@
+{
+    "video": false, 
+    "defaultCommandTimeout": 20000,
+    "execTimeout": 30000,
+    "taskTimeout": 30000,
+    "pageLoadTimeout": 20000,
+    "requestTimeout": 20000,
+    "responseTimeout": 20000,
+    "failOnStatusCode": false,
+    "chromeWebSecurity": false
+}
